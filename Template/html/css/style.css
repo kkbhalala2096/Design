@@ -1,0 +1,301 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    width: 200px;
+}
+
+img {
+    width: 100%;
+}
+
+.header {
+    border-top: 5px solid #76c38f;
+}
+
+.contain-text {
+    position: absolute;
+    top: 20%;
+    left: 50px;
+    width: 100%;
+    z-index: 2;
+}
+
+.main-banner .carousel-item {
+    position: relative;
+    height: 600px;
+}
+
+.image-right {
+    height: 380px;
+    width: 380px;
+    border-radius: 100%;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.image-right img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    min-width: 100%;
+    object-fit: cover;
+}
+
+.main-banner .carousel-item .img-full-mn {
+    position: absolute;
+    top: 0;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    min-width: 100%;
+    object-fit: cover;
+}
+
+.main-banner .carousel-item::before {
+    content: "";
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    z-index: 3;
+}
+
+.service {
+    background-color: #670001;
+    padding: 60px 0;
+}
+
+.service .card:hover {
+    background-color: #76c38f;
+    color: white;
+}
+
+.card_image {
+    padding: 30px;
+}
+
+.card-body h2 {
+    font-size: 32px;
+    color: #000000;
+}
+
+.card-body p {
+    font-size: 16px;
+    color: #000000;
+}
+
+.service .card:hover .card-body h2 {
+    color: #ffffff;
+}
+
+.service .card:hover .card-body p {
+    color: #ffffff;
+}
+
+.work-text {
+    background-color: #670001;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.latest-work {
+    position: relative;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.latest-work h1 {
+    color: white;
+    font-size: 48px;
+    text-transform: uppercase;
+    background-color: gray;
+    border-radius: 10px;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    padding: 4px 8px;
+}
+
+.latest-work::before {
+    content: "";
+    background-color: gray;
+    height: 3px;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    z-index: 0;
+}
+
+.work_detail {
+    border: 5px solid white;
+    position: relative;
+}
+
+.work_card img {
+    width: 100%;
+}
+
+.work_text {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    transition: all 0.3s;
+}
+
+.work_text h2 {
+    font-size: 20px;
+    text-transform: uppercase;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.work_detail {
+    margin-bottom: 30px;
+}
+
+.work_detail:hover {
+    border: 5px solid #76c38f;
+}
+
+.work_detail:hover .work_text {
+    opacity: 0;
+}
+
+hr {
+    color: #000000;
+}
+
+.footer {
+    background-color: #303030;
+    padding: 40px 0 0 0;
+}
+
+.form h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.form h4 {
+    font-size: 18px;
+    color: #76c38f;
+    margin-bottom: 10px;
+}
+
+.form h5 {
+    font-size: 15px;
+    color: #76c38f;
+    margin-bottom: 10px;
+}
+
+.form h6 {
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.form a {
+    color: #76c38f;
+    text-decoration: none;
+}
+
+.quick h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.quick li {
+    color: #76c38f;
+    border-bottom: 1px solid #76c38f;
+}
+
+.quick ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.quick ul li {
+    list-style: none;
+}
+
+.quick ul li a {
+    text-decoration: none;
+    color: #76c38f;
+    font-size: 14px;
+    display: block;
+    padding: 8px 0px;
+}
+
+.Lat-tweet h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.Lat-tweet span {
+    color: #76c38f;
+}
+
+.contact h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.contact .form-control {
+    background-color: #000000;
+    color: white;
+    border-color: #000000;
+}
+
+.contact .form-control::placeholder {
+    color: #ffffff;
+}
+
+.Message {
+    height: 100px;
+}
+
+.submit_btn {
+    background-color: #76c38f;
+    padding: 7px 15px;
+    border-radius: 10px;
+    border: none;
+}
+
+.copyright .temp {
+    text-align: end;
+}

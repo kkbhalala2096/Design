@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moonex - Home Minimal</title>
+    <link rel="shortcut icon" href="../assets/asset 0.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+    <link rel="stylesheet" href="Home-Minimal.css">
+    <style>
+        #div-2,
+        #div-3,
+        #div-4,
+        #div-5 {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container-xxl">
+                <div class="ptf-navbar-inner">
+                    <a class="navbar-brand" href="#"></a>
+                    <button class="navbar-toggler border-0 bg-transparent" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                        <span class="navbar-toggler-icon "></span>
+                    </button>
+                    <div class="offcanvas offcanvas-end " tabindex="-1" id="offcanvasNavbar"
+                        arMY-ia-labelledby="offcanvasNavbarLabel " style="padding-right: 40px;">
+                        <div class="offcanvas-header my-4">
+                            <div class="lang">
+                                <a href="#" class="px-2 text-decoration-none text-dark">ENG</a>
+                                <a href="#" class="px-2 text-decoration-none text-dark">FRA</a>
+                                <a href="#" class="px-2 text-decoration-none text-dark">GER</a>
+                            </div>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body " style="flex-grow: 0 ; height: 240px; ">
+                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle text-dark fs-3 fw-bold" href="#" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        Dropdown
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="Home-Default.html" class="dropdown-item" target="_self">Home
+                                                Default</a></li>
+                                        <li><a href="Home-Studio.html" class="dropdown-item" target="_self">Home
+                                                Studio</a>
+                                        </li>
+                                        <li><a href="Home-Agency.html" class="dropdown-item" target="_self">Home
+                                                Agency</a>
+                                        </li>
+                                        <li><a class="dropdown-item">Home
+                                                Minimal</a></li>
+                                        <li><a href="Home-Dark.html" class="dropdown-item" target="_self">Home Dark</a>
+                                        </li>
+                                        <li><a href="Home-Freelancer.html" class="dropdown-item" target="_self">Home
+                                                Freelancer</a></li>
+                                        <li><a href="Home-Treading.html" class="dropdown-item" target="_self">Home
+                                                Treading</a></li>
+                                        <li><a href="Home-Modern.html" class="dropdown-item" target="_self">Home
+                                                Modern</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle text-dark fs-3 fw-bold hover" href="#"
+                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Portfolio
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="Works/Portifolio Grid.html" class="dropdown-item"
+                                                target="_self">Works
+                                                Grid</a></li>
+                                        <li><a href="Works/Portifolio Masonary.html" class="dropdown-item"
+                                                target="_self">Works
+                                                Masonary</a></li>
+                                        <li><a href="Works/Portifolio Listing.html" class="dropdown-item"
+                                                target="_self">Works
+                                                Listing</a></li>
+                                        <li><a href="Works/Portifolio Curousel.html" class="dropdown-item"
+                                                target="_self">Works
+                                                Carousel</a></li>
+                                        <li><a href="Works/Portifolio Showcase.html" class="dropdown-item"
+                                                target="_self">Works
+                                                Showcase</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle text-dark fs-3 fw-bold hover" href="#"
+                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Blog
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="Blog Grid.html" class="dropdown-item" target="_self">Blog Grid</a>
+                                        </li>
+                                        <li><a href="Blog Masonry.html" class="dropdown-item" target="_self">Blog
+                                                Masonry</a></li>
+                                        <li><a href="Blog Sidebar.html" class="dropdown-item" target="_self">Blog
+                                                Sidebar</a></li>
+                                        <li><a href="Blog Post Details.html" class="dropdown-item" target="_self">Blog
+                                                Details</a></li>
+                                        <li><a href="Blog Details Sidebar.html" class="dropdown-item"
+                                                target="_self">Blog Details
+                                                Sidebar</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle text-dark fs-3 fw-bold hover" href="#"
+                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Pages
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="About Us.html" class="dropdown-item" target="_self">About Us</a>
+                                        </li>
+                                        <li><a href="About Me.html" class="dropdown-item" target="_self">About Me</a>
+                                        </li>
+                                        <li><a href="Services.html" class="dropdown-item" target="_self">Services</a>
+                                        </li>
+                                        <li><a href="Service Details.html" class="dropdown-item" target="_self">Service
+                                                Details</a></li>
+                                        <li><a href="Pricing Page.html" class="dropdown-item" target="_self">Pricing</a>
+                                        </li>
+                                        <li><a href="Team.html" class="dropdown-item" target="_self">Team</a></li>
+                                        <li><a href="FAQ.html" class="dropdown-item" target="_self">FAQ</a></li>
+                                        <li><a href="Contact.html" class="dropdown-item" target="_self">Contact</a></li>
+                                        <li><a href="Page 404.html" class="dropdown-item" target="_self">Page 404</a>
+                                        </li>
+                                        <li><a href="Coming Soon.html" class="dropdown-item" target="_self">Coming
+                                                Soon</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="offcanvas-footer text-muted mt-5 ms-4">
+                            <p>@2022 <span class="text-dark">Moonex.</span> All Rights Reserved.
+                                Development by<span class="hover2"> ib-themes. </span></p>
+                        </div>
+                        <div class="social-icon text-decoration-none mt-3">
+                            <ul class="d-flex" style="list-style: none;">
+                                <li class="px-2 fs-5"><i class="bi bi-twitter"></i></li>
+                                <li class="px-2 fs-5"><i class="bi bi-facebook"></i></li>
+                                <li class="px-2 fs-5"><i class="bi bi-instagram"></i></li>
+                                <li class="px-2 fs-5"><i class="bi bi-pinterest"></i></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="language">
+                        English
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="div-2"></div>
+    <section class="award">
+        <div class="container-xxl">
+            <div class="row">
+                <div class="col-xl-4">
+                    <h1 class="heading">
+                        An Award <br>Winning Digital <br>Studio
+                    </h1>
+                    <div class="all-project">
+                        <ul>
+                            <li class="list after fix" onclick="show1()">All Projects
+                                <span>11</span>
+                            </li>
+                            <li class="list after" onclick="show2()">Branding
+                                <span>4</span>
+                            </li>
+                            <li class="list after" onclick="show3()">UI/UX Interaction
+                                <span>4</span>
+                            </li>
+                            <li class="list after" onclick="show4()">Motion Video
+                                <span>3</span>
+                            </li>
+                            <li class="list" onclick="show5()">Illustration
+                                <span>4</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="div-1"></div>
+                    <div class="text">
+                        We’re expert in <a href="#">Branding</a>, <a href="#">UI/UX</a><br>and <a href="#">
+                            Illustration</a>
+                    </div>
+                    <div class="div-1"></div>
+                    <div class="social-icons">
+                        <ul class="d-flex align-items-center list-unstyled">
+                            <li><a href="#"><i class="bi bi-twitter"></i></a></li>
+                            <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+                            <li><a href="#"><i class="bi bi-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="div-3"></div>
+                </div>
+                <div class="col-xl-8">
+                    <div class="award-name">
+                        <div class="row" id="div-1">
+                            <div class="col-12">
+                                <div class="padding ">
+                                    <div class="row">
+                                        <div class="col-12 col-lg-3">
+                                            <div class="date text-muted pt-2">2021</div>
+                                        </div>
+                                        <div class="col-12 col-lg-9">
+                                            <div class="name">
+                                                MNX Business Card
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="padding">
+                                    <div class="row">
+                                        <div class="col-12 col-lg-3">
+                                            <div class="date text-muted pt-2">2021</div>
+                                        </div>
+                                        <div class="col-12 col-lg-9">
+                                            <div class="name">
+                                                SPA Brand
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="padding">
+                                    <div class="row">
+                                        <div class="col-12 col-lg-3">
+                                            <div class="date text-muted pt-2">2021</div>
+                                        </div>
+                                        <div class="col-12 col-lg-9">
+                                            <div class="name">
+                                                Lewis Studio Wabsite
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="padding">
+                                    <div class="row">
+                                        <div class="col-12 col-lg-3">
+                                            <div class="date text-muted pt-2">2021</div>
+                                        </div>
+                                        <div class="col-12 col-lg-9">
+                                            <div class="name">
+                                                LW Poster
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="padding">
+                                    <div class="row">
+                                        <div class="col-12 col-lg-3">
+                                            <div class="date text-muted pt-2">2021</div>
+                                        </div>
+                                        <div class="col-12 col-lg-9">
+                                            <div class="name">
+                                                Taskly Dashboard
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="padding">
+                                    <div class="row">
+                                        <div class="col-12 col-lg-3">
+                                            <div class="date text-muted pt-2">2021</div>
+                                        </div>
+                                        <div class="col-12 col-lg-9">
+                                            <div class="name">
+                                                Swiss Style Poster
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="padding">
+                                    <div class="row">
+                                        <div class="col-12 col-lg-3">
+                                            <div class="date text-muted pt-2">2021</div>
+                                        </div>
+                                        <div class="col-12 col-lg-9">
+                                            <div class="name">
+                                                Firm & Art Festival
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="padding">
+                                    <div class="row">
+                                        <div class="col-12 col-lg-3">
+                                            <div class="date text-muted pt-2">2021</div>
+                                        </div>
+                                        <div class="col-12 col-lg-9">
+                                            <div class="name">
+                                                Dark Whisky Wine
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="padding">
+                                    <div class="row">
+                                        <div class="col-12 col-lg-3">
+                                            <div class="date text-muted pt-2">2021</div>
+                                        </div>
+                                        <div class="col-12 col-lg-9">
+                                            <div class="name">
+                                                Liarch Archicture Firm
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="padding">
+                                    <div class="row">
+                                        <div class="col-12 col-lg-3">
+                                            <div class="date text-muted pt-2">2021</div>
+                                        </div>
+                                        <div class="col-12 col-lg-9">
+                                            <div class="name">
+                                                Super Online Store
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="padding border-0">
+                                    <div class="row">
+                                        <div class="col-12 col-lg-3">
+                                            <div class="date text-muted pt-2">2021</div>
+                                        </div>
+                                        <div class="col-12 col-lg-9">
+                                            <div class="name ">
+                                                Andy Grammar Coach
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
+                        <div class="row" id="div-2">
+                            <div class="col-12">
+                                <div class="padding ">
+                                    <div class="row">
+                                        <div class="col-12 col-lg-3">
+                                            <div class="date text-muted pt-2">2021</div>
+                                        </div>
+                                        <div class="col-12 col-lg-9">
+                                            <div class="name">
+                                                Dark Whisky Wine
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="padding">
+                                    <div class="row">
+                                        <div class="col-12 col-lg-3">
+                                            <div class="date text-muted pt-2">2021</div>
+                                        </div>
+                                        <div class="col-12 col-lg-9">
+                                            <div class="name">
+                                                Liarch Archicture Firm
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="padding">
+                                    <div class="row">
+                                        <div class="col-12 col-lg-3">
+                                            <div class="date text-muted pt-2">2021</div>
+                                        </div>
+                                        <div class="col-12 col-lg-9">
+                                            <div class="name">
+                                                Supro Online Store
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="padding">
+                                    <div class="row">
+                                        <div class="col-12 col-lg-3">
+                                            <div class="date text-muted pt-2">2021</div>
+                                        </div>
+                                        <div class="col-12 col-lg-9">
+                                            <div class="name">
+                                                Andy Grammar Coach
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
+                        <div class="row" id="div-3">
+                            <div class="col-12">
+                                <div class="padding ">
+                                    <div class="row">
+                                        <div class="col-12 col-lg-3">
+                                            <div class="date text-muted pt-2">2021</div>
+                                        </div>
+                                        <div class="col-12 col-lg-9">
+                                            <div class="name">
+                                                LW Poster
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="padding">
+                                    <div class="row">
+                                        <div class="col-12 col-lg-3">
+                                            <div class="date text-muted pt-2">2021</div>
+                                        </div>
+                                        <div class="col-12 col-lg-9">
+                                            <div class="name">
+                                                Taskly Dashboard
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="padding">
+                                    <div class="row">
+                                        <div class="col-12 col-lg-3">
+                                            <div class="date text-muted pt-2">2021</div>
+                                        </div>
+                                        <div class="col-12 col-lg-9">
+                                            <div class="name">
+                                                Swiss Style Poster
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="padding">
+                                    <div class="row">
+                                        <div class="col-12 col-lg-3">
+                                            <div class="date text-muted pt-2">2021</div>
+                                        </div>
+                                        <div class="col-12 col-lg-9">
+                                            <div class="name">
+                                                Firm & Art Festival
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
+                        <div class="row" id="div-4">
+                            <div class="col-12">
+                                <div class="padding ">
+                                    <div class="row">
+                                        <div class="col-12 col-lg-3">
+                                            <div class="date text-muted pt-2">2021</div>
+                                        </div>
+                                        <div class="col-12 col-lg-9">
+                                            <div class="name">
+                                                MNX Business Card
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="padding">
+                                    <div class="row">
+                                        <div class="col-12 col-lg-3">
+                                            <div class="date text-muted pt-2">2021</div>
+                                        </div>
+                                        <div class="col-12 col-lg-9">
+                                            <div class="name">
+                                                SPA Brand
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="padding">
+                                    <div class="row">
+                                        <div class="col-12 col-lg-3">
+                                            <div class="date text-muted pt-2">2021</div>
+                                        </div>
+                                        <div class="col-12 col-lg-9">
+                                            <div class="name">
+                                                Lewis Studio Wabsite
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
+                        <div class="row" id="div-5">
+                            <div class="col-12">
+                                <div class="padding">
+                                    <div class="row">
+                                        <div class="col-12 col-lg-3">
+                                            <div class="date text-muted pt-2">2021</div>
+                                        </div>
+                                        <div class="col-12 col-lg-9">
+                                            <div class="name">
+                                                Taskly Dashboard
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="padding">
+                                    <div class="row">
+                                        <div class="col-12 col-lg-3">
+                                            <div class="date text-muted pt-2">2021</div>
+                                        </div>
+                                        <div class="col-12 col-lg-9">
+                                            <div class="name">
+                                                Swiss Style Poster
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="padding">
+                                    <div class="row">
+                                        <div class="col-12 col-lg-3">
+                                            <div class="date text-muted pt-2">2021</div>
+                                        </div>
+                                        <div class="col-12 col-lg-9">
+                                            <div class="name">
+                                                Firm & Art Festival
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="padding">
+                                    <div class="row">
+                                        <div class="col-12 col-lg-3">
+                                            <div class="date text-muted pt-2">2021</div>
+                                        </div>
+                                        <div class="col-12 col-lg-9">
+                                            <div class="name">
+                                                Dark Whisky Wine
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer-section">
+        <div class="container-xxl">
+            <div class="div-1"></div>
+            <div class="row">
+                <div class="col">
+                    <div class="footer">
+                        <div class="row">
+                            <div class="col-12 col-lg-8 address">
+                                <p>
+                                    <a href="#">+8 (663) 125-08-59</a>
+                                    <span>/</span>
+                                    <a href="mailto:hello@moonex.com">hello@moonex.com</a>
+                                    <span>/</span>
+                                    90 Fairground Rd, FL 3290, USA
+                                </p>
+                            </div>
+                            <div class="col-12 col-lg-4 copy-right">
+                                <p>© 2021 Moonex.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+        function show1() {
+            document.getElementById('div-1').style.display = "block";
+            document.getElementById('div-2').style.display = "none";
+            document.getElementById('div-3').style.display = "none";
+            document.getElementById('div-4').style.display = "none";
+            document.getElementById('div-5').style.display = "none";
+        }
+        function show2() {
+            document.getElementById('div-1').style.display = "none";
+            document.getElementById('div-2').style.display = "block";
+            document.getElementById('div-3').style.display = "none";
+            document.getElementById('div-4').style.display = "none";
+            document.getElementById('div-5').style.display = "none";
+        }
+        function show3() {
+            document.getElementById('div-1').style.display = "none";
+            document.getElementById('div-2').style.display = "none";
+            document.getElementById('div-3').style.display = "block";
+            document.getElementById('div-4').style.display = "none";
+            document.getElementById('div-5').style.display = "none";
+        }
+        function show4() {
+            document.getElementById('div-1').style.display = "none";
+            document.getElementById('div-2').style.display = "none";
+            document.getElementById('div-3').style.display = "none";
+            document.getElementById('div-4').style.display = "block";
+            document.getElementById('div-5').style.display = "none";
+        }
+        function show5() {
+            document.getElementById('div-1').style.display = "none";
+            document.getElementById('div-2').style.display = "none";
+            document.getElementById('div-3').style.display = "none";
+            document.getElementById('div-4').style.display = "none";
+            document.getElementById('div-5').style.display = "block";
+        }
+    </script>
+</body>
+
+</html>
